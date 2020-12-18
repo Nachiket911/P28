@@ -11,8 +11,8 @@ display(){
 
     push();
 
-    var round = createSprite(width/2,670,width,20);
-    round.shapeColor = rgb(2,21,22);
+    fill(20,20,20);
+    var round = rect(2,70,4,20);    
                       
     pop();
 
