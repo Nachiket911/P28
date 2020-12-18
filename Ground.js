@@ -1,18 +1,18 @@
-class Earth{
+class Stone{
 
     constructor(){
 
-        this.body = Bodies.rectangle(400, 100, 20, 20, {isStatic:false});
+        this.body = Bodies.circle(400, 700, 20, {isStatic:false});
         World.add(world, this.body);    
        
-    } 
+    }
 
 display(){
 
     push();
 
-    var boxSprite1 = createSprite(width/2,670,width,20);
-    boxSprite1.shapeColor = rgb(255,255,255);
+    fill(20,20,20);
+    var rock = rect(2,70,4,20);    
                       
     pop();
 
