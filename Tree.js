@@ -11,8 +11,8 @@ display(){
 
     push();
 
-    var round = createSprite(73,670,1,20);
-    round.shapeColor = rgb(6,1,5);
+    fill(20,20,20);
+    var plant = rect(73,670,1,20);   
                       
     pop();
 
